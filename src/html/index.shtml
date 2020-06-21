@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<title>Accueil</title>
+	<link rel="stylesheet" href="css/styles.min.css">
+	
+</head>
+
+<body>
+
+	<!-- HEADER -->
+	<!--#include file="partials/header.shtml" -->
+	<main role="main">
+
+		<!--carousel-->
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+			<!--image 1 carousel-->
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+
+					<img class="first-slide" src="images/photo1.jpg" alt="">
+
+					<div class="container">
+						<div class="carousel-caption text-left">
+
+							<h3 class="h-carousel">Peinture, enduits.</h3>
+							<p>Construction en neuf ou travaux de rénovation...</p>
+
+						</div>
+					</div>
+					<div class="effet-img"></div>
+				</div>
+				<!--image 2 carousel-->
+				<div class="carousel-item">
+					<img class="second-slide" src="images/photo2.jpg" alt="">
+					<div class="container">
+						<div class="carousel-caption">
+							<h3 class="h-carousel">Rénovation</h3>
+							<p class="text_">Entretenez vos boiseries extérieures : balcons, volets...</p>
+
+						</div>
+					</div>
+					<div class="effet-img"></div>
+				</div>
+				<!--image 3 carousel-->
+				<div class="carousel-item">
+					<img class="third-slide" src="images/photo3.jpg" alt="">
+					<div class="container">
+						<div class="carousel-caption text-right">
+							<h3 class="h-carousel">Home Stadging</h3>
+							<p class="text_3">Vous cherchez à vendre un bien? Un rafraichissement vous aidera...</p>
+
+						</div>
+					</div>
+				</div>
+				<div class="effet-img"></div>
+			</div>
+			<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+
+		<!-- fin du carousel -->
+
+
+		<div class="container marketing">
+			<div class="container">
+				<h3 class="titre__h3-accueil">Laurent Quéré</h3>
+				<h1 class="titre__h1-accueil">
+					Artisan peintre.
+				</h1>
+				<h2 class="titre__h2-accueil">Morzine, Les Gets, Saint Jean d'Aulps, Montriond, Avoriaz, Thonon</h2>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-4">
+					<img class="rounded-circle" src="images/peinture.jpg" alt="Generic placeholder image" width="140"
+						height="140">
+					<h2>Peinture</h2>
+					<p>
+						Artisan peintre depuis plus de 10 ans, j'intervient sur des travaux de rénovation ou sur du
+						neuf, aussi bien à l'intérieur qu'à l'extérieur. N'hésitez pas à me contacter pour plus de
+						renseignements.</p>
+
+				</div>
+				<!-- /.col-lg-4 -->
+				<div class="col-lg-4">
+					<img class="rounded-circle" src="images/enduit.jpg" alt="Generic placeholder image" width="140"
+						height="140">
+					<h2>Enduit</h2>
+					<p>Envie de travaux de rénovation? Besoin de refaire la salle de bain ou le salon? Je suis également
+						spécialisé dans les enduits décoratifs, plâtre à l'ancienne, crépi ribé, enduit à la chaux...
+					</p>
+
+				</div>
+				<!-- /.col-lg-4 -->
+				<div class="col-lg-4">
+					<img class="rounded-circle" src="images/bois.jpg" alt="Generic placeholder image" width="140"
+						height="140">
+					<h2>Rénovation</h2>
+					<p>Les hivers sont rudes à la montagne, les structures en bois sont mises à rude épreuves.
+						J'intervient également à l'extérieur de la maison pour entretenir vos ouvertures, vos volets,
+						balcons....</p>
+
+				</div>
+				<!-- /.col-lg-4 -->
+			</div>
+			<!-- /.row -->
+
+
+			<!-- début articles accueil -->
+
+			<hr class="featurette-divider">
+
+			<div class="row featurette">
+				<div class="col-md-7">
+					<h2 class="featurette-heading">Vous souhaitez engager des travaux, neuf ou rénovation...
+						<span class="text-muted">N'hésitez pas à me contacter.</span>
+					</h2>
+					<p class="lead">Mon entreprise de peinture se situe sur la commune de Morzine, mais je me déplace
+						également aux alentours. Je fais régulièrement des chantiers de rénovation aux Gets, à St jean
+						d'Aulps, Montriond, Avoriaz, Thonon les bains...
+
+					</p>
+				</div>
+				<div class="col-md-5">
+					<img class="featurette-image img-fluid mx-auto" src="images/pantone.jpg"
+						data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+				</div>
+			</div>
+
+			<hr class="featurette-divider">
+
+			<div class="row featurette">
+				<div class="col-md-7 order-md-2">
+					<h2 class="featurette-heading">Besoin de conseils?
+						<span class="text-muted">quelles sont les tendances actuelles?</span>
+					</h2>
+					<p class="lead">Trouver le juste équilibre entre le neuf et l'ancien, l'art du compromis entre le
+						bois traditionnel et les enduits d'aujourd'hui, quelles sont les couleurs et les enduits les
+						plus adaptées à mon projet?</p>
+				</div>
+				<div class="col-md-5 order-md-1">
+					<img class="featurette-image img-fluid mx-auto" src="images/couloir.jpg"
+						data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+				</div>
+			</div>
+
+			<hr class="featurette-divider">
+
+			<div class="row featurette">
+				<div class="col-md-7">
+					<h2 class="featurette-heading">Intérieur ou extérieur.
+						<span class="text-muted">Je travaille également dehors</span>
+					</h2>
+					<p class="lead">La neige et le froid sont bien présents dans nos vallets l'hiver, le bois souffre!
+						Si vous avez besoin de faire rénover l'extérieur du chalet, j'intervient également sur les
+						boiseries.</p>
+				</div>
+				<div class="col-md-5">
+					<img class="featurette-image img-fluid mx-auto" src="images/balcon.jpg"
+						data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+				</div>
+			</div>
+			<hr class="featurette-divider">
+			<!-- /fin articles accueil -->
+
+
+			<!--début formualire contact-->
+			<section id="contact" class="mb-4 form-contact">
+				<!--Section heading-->
+				<h2 class="h1-responsive font-weight-bold text-center my-4">Contact.</h2>
+				<!--Section description-->
+				<p class="text-center w-responsive mx-auto mb-5">Vous souhaitez engager des travaux, neuf ou rénovation,
+					vous souhaitez repeindre un bien immobilier pour mieux le vendre (home Stadging),
+					rafraichir une location saisonière... n'hésitez pas à me contacter par mail via le formulaire
+					ci-dessous ou bien directement par téléphone.</p>
+				<div class="row">
+					<!--Grid column-->
+					<div class="col-md-9 mb-md-0 mb-5">
+						<form id="contact-form" name="contact-form" action="mail.php" method="POST">
+							<!--Grid row-->
+							<div class="row">
+								<!--Grid column-->
+								<div class="col-md-6">
+									<div class="md-form mb-0">
+										<input type="text" id="name" name="name" class="form-control">
+										<label for="name" class="">Votre nom</label>
+									</div>
+								</div>
+								<!--Grid column-->
+								<!--Grid column-->
+								<div class="col-md-6">
+									<div class="md-form mb-0">
+										<input type="text" id="email" name="email" class="form-control">
+										<label for="email" class="">Votre email</label>
+									</div>
+								</div>
+								<!--Grid column-->
+							</div>
+							<!--Grid row-->
+							<!--Grid row-->
+							<div class="row">
+								<div class="col-md-12">
+									<div class="md-form mb-0">
+										<input type="text" id="subject" name="subject" class="form-control">
+										<label for="subject" class="">Sujet</label>
+									</div>
+								</div>
+							</div>
+							<!--Grid row-->
+							<!--Grid row-->
+							<div class="row">
+								<!--Grid column-->
+								<div class="col-md-12">
+									<div class="md-form">
+										<textarea type="text" id="message" name="message" rows="6"
+											class="form-control md-textarea"></textarea>
+										<label for="message">Votre message</label>
+									</div>
+								</div>
+							</div>
+							<!--Grid row-->
+						</form>
+						<div class="text-center text-md btn-envoyer">
+							<a class="btn btn-primary envoyer-contact"
+								onclick="document.getElementById('contact-form').submit();">Envoyer</a>
+						</div>
+						<div class="status"></div>
+					</div>
+					<!--Grid column-->
+					<!--Grid column-->
+					<div class="col-md-3 text-center">
+						<ul class="list-unstyled mb-0">
+							<li>
+								<i class="fas fa-map-marker-alt fa-2x"></i>
+								<p>160 che Vieille Crusaz</p>
+								<p>74110 Morzine</p>
+								<p>siret : 522972553</p>
+							</li>
+							<li>
+								<i class="fas fa-phone mt-4 fa-2x"></i>
+								<p>06 09 02 72 91</p>
+							</li>
+							<li>
+								<i class="fas fa-envelope mt-4 fa-2x"></i>
+								<p>contact-laurent@orange.fr</p>
+							</li>
+						</ul>
+					</div>
+					<!--Grid column-->
+				</div>
+			</section>
+			<!--fin formualire contact-->
+
+		</div>
+
+
+		<!-- FOOTER -->
+		<!--#include file="partials/footer.shtml" -->
+
+		
+		
+	</main>
+	
+	<script src="js/jquery-slim.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script>
+		$(function () {
+    $('[data-toggle="popover"]').popover()
+  })</script>
+</body>
+
+</html>

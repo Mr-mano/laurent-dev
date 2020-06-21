@@ -1,0 +1,25 @@
+
+
+.phone{
+
+    &__container{
+        margin-right: 3%;
+        border: 2px solid #7a8a8e;
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    &__container:hover{
+        color: silver;
+    }
+    &__icone-phone{
+        color: #7a8a8e;
+        cursor: pointer;
+    }
+    &__icone-phone:hover{
+        color: silver;
+    }
+}

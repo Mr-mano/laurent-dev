@@ -1,0 +1,53 @@
+.realisation {
+    padding: 10%;
+}
+
+.rea {
+    
+    &__main-rea{
+        padding-top: 10%;
+    }
+    &__cont1 {
+        padding: 0 10% 0;
+    }
+    &__cont {
+        padding: 0 5% 0;
+    }
+    &__h3-accueil{
+        color: silver;
+        margin: 0 0 0 5%;
+    }
+    &__h1-accueil{
+        margin: 0 0 0 5%;
+    }
+
+    &__titre {
+        margin-bottom: 0;
+    }
+
+    &__lieu {
+        color: silver;
+        font-size: 1rem;
+    }
+
+    &__sepa {
+        margin-top: 5%;
+    }
+
+    &__text {
+        margin-left: 5%;
+        font-weight: 400;
+        font-size: 1.6rem;
+        color: silver;
+    }
+
+    &__small-img {
+        min-height: 25px;
+        max-height: 80px;
+        width: auto;
+        margin: 3% 3% 3% 0;
+    }
+}
+.card-body{
+    padding: 2% 0 0;
+}

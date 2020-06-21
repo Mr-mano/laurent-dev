@@ -1,0 +1,38 @@
+@media only screen and (max-width: 600px) {
+    .rea {
+       
+        &__cont1 {
+            padding: 0
+        }
+        &__small-img {
+        
+            height: 50px;
+        }
+        &__titre {
+            font-size: 1.5rem;
+        }
+        &__text{
+            font-size: 1.3rem;
+        }
+        &__h3-accueil{
+            margin: 0;
+        }
+        &__h1-accueil{
+            margin: 0;
+            font-size: 1.8rem;
+        }
+        &__text{
+            margin: 0;
+            font-size: 1.3rem;
+        }
+    }
+    
+    
+}
+@media only screen and (min-width: 1000px){
+    .rea{
+        &__cont1{
+            padding: 0 15% 0;
+        }
+    }
+}
